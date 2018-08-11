@@ -1,0 +1,12 @@
+router:
+  port: 3000
+
+database:
+  type: "mysql"
+  connectionUri: "user:password/dbname?charset=utf8&parseTime=True&loc=Local"
+
+create:
+  bodyLimit: 1048576
+
+security:
+  tokenSecret: "this is my very secret key"
